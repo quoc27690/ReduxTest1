@@ -25,7 +25,7 @@ const reducer = (state = defaultState, action) => {
 
 const store = createStore(reducer);
 
-export default class ReduxTest1 extends Component {
+export default class reactNativeReduxTest1 extends Component {
   render() {
     return (
       <Provider store={store}>
@@ -35,4 +35,4 @@ export default class ReduxTest1 extends Component {
   }
 }
 
-AppRegistry.registerComponent(appName, () => ReduxTest1);
+AppRegistry.registerComponent(appName, () => reactNativeReduxTest1);
